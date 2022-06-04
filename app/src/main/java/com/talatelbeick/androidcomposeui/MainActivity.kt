@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.talatelbeick.androidcomposeui.birthday.BirthdayActivity
+import com.talatelbeick.androidcomposeui.composearticle.ComposeArticle
 import com.talatelbeick.androidcomposeui.ui.theme.AndroidComposeUiTheme
 
 
@@ -38,6 +39,7 @@ class MainActivity : ComponentActivity() {
                         GetCard(
                             targets = listOf(
                                 Target(getString(R.string.birthday_activity), BirthdayActivity()),
+                                Target(getString(R.string.title_activity_compose_article), ComposeArticle()),
                             ),
                         )
                     }
