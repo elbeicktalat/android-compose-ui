@@ -16,4 +16,5 @@
     <string name="row_composable_description">A layout composable that places its children in a horizontal sequence.</string>
     <string name="column_composable">Column composable</string>
     <string name="column_composable_description">A layout composable that places its children in a vertical sequence.</string>
+    <string name="title_activity_dice_roller">DiceRoller</string>
 </resources>

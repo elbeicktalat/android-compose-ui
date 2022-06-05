@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.sp
 import com.talatelbeick.androidcomposeui.birthday.BirthdayActivity
 import com.talatelbeick.androidcomposeui.composearticle.ComposeArticle
 import com.talatelbeick.androidcomposeui.composequadrant.ComposeQuadrant
+import com.talatelbeick.androidcomposeui.diceroller.DiceRollerActivity
 import com.talatelbeick.androidcomposeui.ui.theme.AndroidComposeUiTheme
 
 
@@ -42,6 +43,7 @@ class MainActivity : ComponentActivity() {
                                 Target(getString(R.string.birthday_activity), BirthdayActivity()),
                                 Target(getString(R.string.title_activity_compose_article), ComposeArticle()),
                                 Target(getString(R.string.title_activity_compose_quadrant), ComposeQuadrant()),
+                                Target(getString(R.string.title_activity_dice_roller), DiceRollerActivity()),
                             ),
                         )
                     }

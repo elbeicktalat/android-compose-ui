@@ -14,6 +14,11 @@
         android:theme="@style/Theme.AndroidComposeUi"
         tools:targetApi="31">
         <activity
+            android:name=".diceroller.DiceRollerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dice_roller"
+            android:theme="@style/Theme.AndroidComposeUi" />
+        <activity
             android:name=".composequadrant.ComposeQuadrant"
             android:exported="false"
             android:label="@string/title_activity_compose_quadrant"
