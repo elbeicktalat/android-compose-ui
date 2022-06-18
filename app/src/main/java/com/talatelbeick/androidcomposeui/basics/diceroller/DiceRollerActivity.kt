@@ -1,4 +1,4 @@
-package com.talatelbeick.androidcomposeui.diceroller
+package com.talatelbeick.androidcomposeui.basics.diceroller
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

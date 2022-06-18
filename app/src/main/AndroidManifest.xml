@@ -14,24 +14,23 @@
         android:theme="@style/Theme.AndroidComposeUi"
         tools:targetApi="31">
         <activity
-            android:name=".diceroller.DiceRollerActivity"
+            android:name=".basics.diceroller.DiceRollerActivity"
             android:exported="false"
             android:label="@string/title_activity_dice_roller"
             android:theme="@style/Theme.AndroidComposeUi" />
         <activity
-            android:name=".composequadrant.ComposeQuadrant"
+            android:name=".basics.composequadrant.ComposeQuadrant"
             android:exported="false"
             android:label="@string/title_activity_compose_quadrant"
             android:theme="@style/Theme.AndroidComposeUi" />
         <activity
-            android:name=".composearticle.ComposeArticle"
+            android:name=".basics.composearticle.ComposeArticle"
             android:exported="false"
             android:label="@string/title_activity_compose_article"
             android:theme="@style/Theme.AndroidComposeUi" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.AndroidComposeUi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +38,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".birthday.BirthdayActivity" />
+        <activity android:name=".basics.birthday.BirthdayActivity" />
     </application>
 
 </manifest>

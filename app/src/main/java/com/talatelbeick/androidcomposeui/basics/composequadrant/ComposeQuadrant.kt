@@ -1,4 +1,4 @@
-package com.talatelbeick.androidcomposeui.composequadrant
+package com.talatelbeick.androidcomposeui.basics.composequadrant
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

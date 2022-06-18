@@ -1,4 +1,4 @@
-package com.talatelbeick.androidcomposeui.composearticle
+package com.talatelbeick.androidcomposeui.basics.composearticle
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

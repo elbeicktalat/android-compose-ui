@@ -15,10 +15,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.talatelbeick.androidcomposeui.birthday.BirthdayActivity
-import com.talatelbeick.androidcomposeui.composearticle.ComposeArticle
-import com.talatelbeick.androidcomposeui.composequadrant.ComposeQuadrant
-import com.talatelbeick.androidcomposeui.diceroller.DiceRollerActivity
+import com.talatelbeick.androidcomposeui.basics.birthday.BirthdayActivity
+import com.talatelbeick.androidcomposeui.basics.composearticle.ComposeArticle
+import com.talatelbeick.androidcomposeui.basics.composequadrant.ComposeQuadrant
+import com.talatelbeick.androidcomposeui.basics.diceroller.DiceRollerActivity
 import com.talatelbeick.androidcomposeui.ui.theme.AndroidComposeUiTheme
 
 
